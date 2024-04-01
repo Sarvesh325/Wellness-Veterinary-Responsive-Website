@@ -1,5 +1,4 @@
   /* Navbar  */
-
   #top_nav {
       background-color: #dAAc00;
       color: rgb(255, 255, 255);
@@ -55,3 +54,99 @@
       }
 
   }
+
+  /* NavBar End  */
+
+  /* Hero Section  */
+  #hero_section {
+      background-color: #fcc302;
+      padding-bottom: 20px;
+  }
+
+  #banner_text h1 {
+      color: white;
+      font-size: 70px;
+      margin-top: 100px;
+  }
+
+  #banner_text p {
+      color: white;
+      font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+  }
+
+  #hero_contact {
+      background-color: #00bec9;
+      color: white;
+      border: 2px solid #00bec9;
+
+  }
+
+  #hero_services {
+      color: white;
+      background-color: #fcc302;
+      border: 2px solid white;
+      margin-left: 15px;
+  }
+
+
+  #banner_img {
+      margin-top: 70px;
+      width: 350px;
+  }
+
+
+  @media screen and (max-width:1300px) {
+      #banner_text h1 {
+          font-size: 50px;
+      }
+
+      #banner_img {
+          padding-bottom: 70px;
+      }
+  }
+
+  @media screen and (max-width:900px) {
+      #banner_text h1 {
+          font-size: 40px;
+      }
+
+      #banner_img {
+          margin-top: 70px;
+          width: 300px;
+
+      }
+  }
+  /* Hero Section End  */
+
+  /* Service Section  */
+  #service_sec_text {
+      padding-top: 10%;
+      padding-bottom: 5%;
+  }
+
+  #service_sec_text h1 {}
+
+  #service_sec_btn {
+      background-color: #fcc302;
+      border: 2px solid #fcc302;
+      color: white;
+  }
+
+  #service_sec_img {
+      position: relative;
+      top: 17%;
+      width: 60%;
+  }
+
+  @media screen and (max-width:900px) {
+
+      #service_sec_img {
+          position: relative;
+          top: 15%;
+      }
+
+  }
+
+  /* Service Section End  */
