@@ -167,3 +167,32 @@
   }
 
   /* Counter Section End  */
+
+  /* Blog Section */
+  #blog {
+      padding-bottom: 70px;
+      padding-top: 70px;
+  }
+
+  #blog_title {
+      font-style: 50px;
+      font-weight: bolder;
+  }
+
+  #blog_p {
+      font-style: 20px;
+      margin-bottom: 70px;
+  }
+
+  .article_detail {
+      padding: 15px;
+      border: 2px solid rgb(185, 185, 185);
+      border-top: 0;
+  }
+
+  .article_date,
+  .article_link {
+      color: #00bec9;
+  }
+
+  /* Blog Section End */
