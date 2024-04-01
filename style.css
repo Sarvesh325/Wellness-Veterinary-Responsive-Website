@@ -118,6 +118,7 @@
 
       }
   }
+
   /* Hero Section End  */
 
   /* Service Section  */
@@ -138,6 +139,7 @@
       position: relative;
       top: 17%;
       width: 60%;
+      padding-bottom: 50px;
   }
 
   @media screen and (max-width:900px) {
@@ -150,3 +152,18 @@
   }
 
   /* Service Section End  */
+
+  /* Counter Section  */
+  #counter_section {
+      background-color: #fcc302;
+  }
+
+  h5 {
+      font-weight: bold;
+  }
+
+  .counter_types p {
+      font-size: 28px;
+  }
+
+  /* Counter Section End  */
